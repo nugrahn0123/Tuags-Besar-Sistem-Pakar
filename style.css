@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #2563eb;
+    --bg-color: #f3f4f6;
+    --card-bg: #ffffff;
+    --text-color: #1f2937;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 { color: var(--primary-color); text-align: center; margin-bottom: 0.5rem; }
+p { text-align: center; color: #666; margin-top: 0; }
+
+.form-group { margin-bottom: 1rem; }
+label { display: block; margin-bottom: 0.5rem; font-weight: bold; font-size: 0.9rem;}
+input, select { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box; }
+
+button {
+    width: 100%; padding: 12px; background-color: var(--primary-color);
+    color: white; border: none; border-radius: 6px; font-weight: bold; cursor: pointer;
+    margin-top: 10px;
+}
+button:hover { background-color: #1d4ed8; }
+
+.result-box { margin-top: 20px; padding: 15px; border-radius: 8px; text-align: center; }
+.hidden { display: none; }
+.layak { background-color: #d1fae5; color: #065f46; border: 1px solid #10b981; }
+.tidak-layak { background-color: #fee2e2; color: #991b1b; border: 1px solid #ef4444; }
